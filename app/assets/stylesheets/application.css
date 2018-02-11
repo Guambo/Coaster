@@ -13,3 +13,76 @@
  *= require_tree .
  *= require_self
  */
+html {
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  background-color: #3a4343;
+  color: #090b0b;
+  margin: 0px auto;
+}
+
+a {
+  text-decoration: none;
+  color: #225a31 !important;
+}
+
+.header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  padding: 0px;
+  margin: 0 auto;
+  width: 100%;
+  width: 100vw;
+  background-color: #c5dfe0 !important;
+}
+
+.header h1 {
+  margin-left: 100px;
+  color: #6f9bed !important;
+  display: inline-block;
+}
+
+.header div {
+  float: right;
+  margin-top: 40px;
+  margin-right: 10%;
+}
+
+.header div a {
+  color: #000 !important;
+  display: inline-block;
+  font-size: 18pt;
+  text-decoration: underline !important;
+}
+
+.content {
+  padding-top: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  background-color: #fff;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 0px;
+}
+
+.container div {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.container a {
+  font-size: 10pt;
+}
+
+.timestamp {
+  margin-left: 20px;
+}
+
+.post {
+  background-color: #e98884 !important;
+  width: 75%;
+}

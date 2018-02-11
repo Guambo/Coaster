@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
 
+  get 'users/new'
+
   resources :articles
+  resources :users
 
   root 'articles#index'
 

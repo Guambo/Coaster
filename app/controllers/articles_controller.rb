@@ -36,6 +36,8 @@ class ArticlesController < ApplicationController
   end
 
   def destroy
+    Article.find(params[:id]).destroy
+    redirect_to :action => 'index'
   end
 
   private
